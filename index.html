@@ -146,13 +146,10 @@
                     </div>
                     <div class="zf-clearBoth"></div>
                 </div>
-                <div class="zf-tempFrmWrapper zf-decesion ">
-                            <div class="zf-tempContDiv"><input type="checkbox" checktype="c1" id="DecisionBox"
-                                    name="DecisionBox" /><label for="DecisionBox" class="zf-labelName">
+                <div class="zf-tempFrmWrapper zf-privacyNote">
+                            <div class="zf-tempContDiv"><p class="zf-privacyText">
                                     We use the data you provide to respond to your inquiry. More information on how we
                                     process your personal data can be found in our Privacy Policy.
-                                </label>
-                                <p id="DecisionBox_error" class="zf-errorMessage" style="display: none;">Invalid value
                                 </p>
                             </div>
                             <div class="zf-clearBoth"></div>
@@ -246,11 +243,6 @@
                         if (value.trim().length < 5) return 'At least 5 characters required.';
                         return '';
                     }
-                },
-                DecisionBox: {
-                    el: $('[name="DecisionBox"]'),
-                    err: document.getElementById('DecisionBox_error'),
-                    required: false
                 }
             };
 

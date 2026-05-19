@@ -1552,7 +1552,7 @@ font-family: 'Poppins', sans-serif;
 .zfthreeColumn {
   display: flex;
   flex-wrap: nowrap;
-  gap: 15px;
+  gap: 32px;
 }
 .zfoneColumn .zfCol {
   max-width: 100%;
@@ -2048,4 +2048,17 @@ em {
 }
 #sub{
   margin-top: 32px!important;
+}
+
+.zf-privacyNote .zf-tempContDiv {
+  width: 100%;
+  margin-top: 4px;
+}
+.zf-privacyText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #101114;
+  line-height: 21px;
+  margin: 0;
+  text-align: left;
 }
